@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-primary : var(--font-primary);
+  --font-secondary : var(--font-secondary);
+
+  --color-blue : rgb(0, 112, 150);
+  --color-orange : rgb(219, 138, 6);
+
+
+  --text-15 : 15px;
+  --text-15-line-height : 110%;
+
+}
+
+@utility container {
+  padding-inline: 1rem;
+  margin-inline : auto
+}
